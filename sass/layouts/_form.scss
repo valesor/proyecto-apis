@@ -1,0 +1,60 @@
+form {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2em;
+    
+    select{
+     margin: 0.5em; 
+    padding:  0.6em 6em;
+    border-radius: 7%;
+    background-color:  #744649;
+    color: $color--font;
+    cursor: pointer;
+    
+    
+    
+    }
+    
+    
+    
+    
+    option{
+       text-align: left;
+       }
+       
+    .form-botton{
+        margin: 0.5em; 
+        padding:  0.6em 1.5em;
+        border-radius: 7%;
+        background-color: $color--primary;
+        color: $color--secondary;
+        border: 2px solid #785a58;
+        font-weight: bold;
+    }
+    
+  .form-botton:hover {
+        cursor: pointer;
+        background-color: #a47f7d;
+        color: $color--font;
+      }
+      
+    
+  
+    }    
+    
+   .container-span{
+margin: 1em 0 1em 0;
+
+.span-category{
+    text-align: center;
+     background-color: $color--secondary;
+     color: $color--font;
+     padding: 0 1em;
+     margin: 1em 0.5em ; 
+  }
+ 
+
+   }
+    
+ 

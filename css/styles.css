@@ -1,3 +1,130 @@
+header {
+  background-color: #744649;
+  padding: 1.5em;
+  width: 100%;
+}
+header nav {
+  background-color: aqua;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+header nav .nav-link {
+  color: #fff;
+  text-decoration: none;
+  background-color: #BDACA5;
+  border: 1px solid #744649;
+  border-radius: 7%;
+  padding: 0.5em;
+  cursor: pointer;
+  align-items: flex-end;
+}
+header nav a.nav-link:hover {
+  cursor: pointer;
+  background-color: #a47f7d;
+  color: #fff;
+}
 
+form {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 2em;
+}
+form select {
+  margin: 0.5em;
+  padding: 0.6em 6em;
+  border-radius: 7%;
+  background-color: #744649;
+  color: #fff;
+  cursor: pointer;
+}
+form option {
+  text-align: left;
+}
+form .form-botton {
+  margin: 0.5em;
+  padding: 0.6em 1.5em;
+  border-radius: 7%;
+  background-color: #f1e8df;
+  color: #744649;
+  border: 2px solid #785a58;
+  font-weight: bold;
+}
+form .form-botton:hover {
+  cursor: pointer;
+  background-color: #a47f7d;
+  color: #fff;
+}
+
+.container-span {
+  margin: 1em 0 1em 0;
+}
+.container-span .span-category {
+  text-align: center;
+  background-color: #744649;
+  color: #fff;
+  padding: 0 1em;
+  margin: 1em 0.5em;
+}
+
+footer {
+  background-color: #744649;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 1em;
+}
+footer .paragraph-footer {
+  color: #fff;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  color: #744649;
+  background-color: #f1e8df;
+}
+body .paragraph {
+  color: #744649;
+}
+
+section {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 2em;
+}
+section h3 {
+  margin: 0.6em 0;
+}
+section .card {
+  text-align: left;
+  width: 25%;
+  background-color: #E4DBD2;
+  padding: 1em;
+  border: 1px solid #744649;
+  border-radius: 7%;
+  margin: 1em;
+}
+section .button-details {
+  margin: 0.5em;
+  padding: 0.6em;
+  background-color: #744649;
+  border: 1px solid #785a58;
+  border-radius: 7%;
+  color: #fff;
+}
+section .button-details:hover {
+  cursor: pointer;
+  background-color: #785a58;
+  color: #fff;
+}
 
 /*# sourceMappingURL=styles.css.map */
